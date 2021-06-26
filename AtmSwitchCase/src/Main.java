@@ -39,7 +39,7 @@ public class Main {
                  System.out.println("Bakiyeniz = " + balance);
                  System.out.print("Çekmek istediðiniz tutarý giriniz: ");
                  int tutar = scan.nextInt();
-                 if(tutar > bakiye) {
+                 if(tutar > balance) {
                      System.out.print("Yetersiz bakiye. Tekrar giriniz: ");
                      tutar = scan.nextInt();
                  }
